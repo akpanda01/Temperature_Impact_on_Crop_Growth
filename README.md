@@ -39,9 +39,6 @@ pip install -r requirements.txt
 
 ## 📦 Dataset
 
-Use the dataset from Kaggle:  
-👉 [Crop Yield Prediction Dataset](https://www.kaggle.com/datasets/mrigaankjaswal/crop-yield-prediction-dataset)
-
 - If the dataset is large, only include a sample (`sample_train.csv`, `sample_test.csv`) inside the `data/` folder.
 - For full training, download and place the CSV in `data/` as `yield_df.csv`.
 
@@ -55,12 +52,6 @@ Run the training script to build the model and save it:
 python src/train.py
 ```
 
-Outputs:
-- Trained model at `models/model.pkl`
-- Logs and metrics in `output/`
-
----
-
 ## 📈 Performance
 
 The model aims to achieve **>80% R² score** (or mAP if classification) using RandomForest or XGBoost regressors.
@@ -69,11 +60,7 @@ The model aims to achieve **>80% R² score** (or mAP if classification) using Ra
 
 ## 📚 Documentation
 
-See `docs/report.pdf` for:
-- Project methodology
-- EDA (Exploratory Data Analysis)
-- Feature importance (e.g., temperature impact)
-- Evaluation metrics and conclusions
+See `docs/Project methodology.pdf`
 
 ---
 
